@@ -1,0 +1,2 @@
+Title: \Some Title
+        Author: Name of Author
