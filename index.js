@@ -7,17 +7,16 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 
 // TODO: Create an array of questions for user input
-const promptUser = () => {
-    return inquirer.prompt([
+const questions = [
     {
         name: "title",
         message: "What is the project title?",
-        type: 'input'
+        type: 'input',
     },
     {
         name: "description",
         message: "Please describe your project.",
-        type: 'input'
+        type: 'input',
     },
     {
         name: "installations",
@@ -63,7 +62,7 @@ const promptUser = () => {
                  "GNU AGPLv3", 
                  "GNU GPLv3",]
     },
-])};
+]
 //function to initialize app
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, err => {

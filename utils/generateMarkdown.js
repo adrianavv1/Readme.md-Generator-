@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
     return `<a href="https://img.shields.io/badge/License-GNUAGPLv3-yellowgreen?style=plastic"><img alt="GNU AGPLv3 License used" src="https://img.shields.io/badge/License-GNUAGPLv3-yellowgreen?style=plastic"></a>`;
   } else if (license === "GNU GPLv3") {
     return `<a href="https://img.shields.io/badge/License-GNUGPLv3-yellowgreen?style=plastic"><img alt="GNU GPLv3 License used" src="https://img.shields.io/badge/License-GNU GPLv3-yellowgreen?style=plastic"></a>`;
-  }
+  } 
 }
 
 // TODO: Create a function that returns the license link
@@ -40,54 +40,55 @@ function renderLicenseSection(license, name) {
   if (license === "None") {
     return ``;
   } else {
-    return `##License
-    Copyright (c) 2021 ${name}.
+    return `Copyright (c) 2021 ${name}.
     This project is licensed under [${license}](${renderLicenseLink(license)}) `;
   }
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(response) {
-  let response;
-  return `# ${response.title}
+function generateMarkdown(data) {
+  return `# ${data.title}
 
-  #${response.title}
+# Table of Content
+[Description](#description)
 
-  #Table of Content
-  -[Description] (#description)
+[Installation](#installation)
 
-  -[Installation] (#installation)
-  
-  -[Contribution] (#contribution)
-  
-  -[Test] (#test)
-  
-  -[Usage] (#usage)
-  
-  -[Username] (#username)
-  
-  -[License) (#license)
- 
-    ## Description
-  ${data.description}
+[Contribution](#contribution)
 
-    ##Instillation
-    ${data.instillation}
+[Test](#test)
 
-    ##Contribution
-    ${data.contribution}
+[Usage](#usage)
 
-    ##Test
-    ${data.test}
+[Username](#username)
 
-    ##Usage
-    ${data.usage}
+[License](#license)
 
-    ##Username
-    ${data.username}
+## Description
+${data.description}
 
-    ## License
-    ${data.license}
+## Installation
+${data.installations}
+
+## Contribution
+${data.contribution}
+
+## Test
+${data.tests}
+
+## Usage
+${data.usage}
+
+## Username
+${data.username}
+
+## Email
+${data.email}
+
+## License
+${renderLicenseSection(data.license, data.username)}
+
+${renderLicenseBadge(data.license)}
 `;
 }
 
