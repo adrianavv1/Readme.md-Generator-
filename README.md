@@ -1,20 +1,5 @@
 # README.md Generator using Node.js
 
-# Table of Content
-[Description](#description)
-
-[Installation](#installation)
-
-[Contribution](#contribution)
-
-[Test](#test)
-
-[Usage](#usage)
-
-[Username](#username)
-
-[License](#license)
-
 ## Description
 As a developer you will need a high quality README.md file. This application if here to do just that. This is a command-line application that runs with Node.js and will generate a README.md file based on the details you provide about your project. 
 
@@ -35,6 +20,21 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
+
+# Table of Content
+[Description](#description)
+
+[Installation](#installation)
+
+[Contribution](#contribution)
+
+[Test](#test)
+
+[Usage](#usage)
+
+[Username](#username)
+
+[License](#license)
 
 ## Installation
 Steps required to install your project and hoe to get it running:
