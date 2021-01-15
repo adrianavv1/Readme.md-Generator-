@@ -50,7 +50,7 @@ Steps required to install your project and hoe to get it running:
 
 ![Screenshot2](utils\images\zdTVjB4Fbw.png)
 
-[link to demo video here](https://www.dropbox.com/scl/fi/r523lwu9sy0f1o1hk5lo0/azUjaKz2gM.mp4?dl=0&oref=e&r=ABUQfRAwQ1igs4hJX-P7C4WGhRr65L2KJ4V7CDbvJfXhBFsu8o-5tsoejJ4rzZ_sk0QC0eGtHe0F83dq51VeigeYX4bvGdjihm74K1pn_HMI_yotNLKpUl-hcbn4qQ5ji8KFc-ilbwU-AH6gkAt6NT_4jOf8ofZ5wk_D3rI6fBHi_ZFm26lPOYWYYYtaNeZaNBU&sm=1)
+[link to demo video here](https://youtu.be/I9RkBW-fqJk)
 
 
 ## Usage
