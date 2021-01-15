@@ -79,11 +79,8 @@ ${data.tests}
 ## Usage
 ${data.usage}
 
-## Username
-${data.username}
-
-## Email
-${data.email}
+## Questions
+Any questions or feedback in regards to this app are always welcomed! Please reach me at ${data.email}. My github username is ${data.username}.
 
 ## License
 ${renderLicenseSection(data.license, data.username)}

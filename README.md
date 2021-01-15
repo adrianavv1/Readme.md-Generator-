@@ -1,4 +1,4 @@
-# README Generator
+# README.md Generator using Node.js
 
 # Table of Content
 [Description](#description)
@@ -16,28 +16,25 @@
 [License](#license)
 
 ## Description
-This is a project
+This is a command-line application that runs with Node.js. It generates a README.MD based on input about your project.
 
 ## Installation
-node
+Steps to run this application include the following: first run npm install in order to install the following npm package- package.json. then the app will invoke with node.index.js.
 
 ## Contribution
-Adriana
+Trilogy provided the template. I coded the rest of the app.
 
 ## Test
-tests
+node js must be installed in order to get the app to work.
 
 ## Usage
-instructions
+you will need to first run node index.js, then use the inquirer package to prompt you in the command line with a series of questions about you project.
 
-## Username
-adriana
-
-## Email
-adriana@gmail.com
+## Questions
+Any questions or feedback in regards to this app are always welcomed! Please reach me at adrianavaldiglesias2@gmail.com. My github username is adrianavv1.
 
 ## License
-Copyright (c) 2021 adriana.
-    This project is licensed under [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0) 
+Copyright (c) 2021 adrianavv1.
+    This project is licensed under [MIT](https://choosealicense.com/licenses/mit/) 
 
-<a href="https://img.shields.io/badge/License-Apache2.0-yellowgreen?style=plastic"><img alt="Apache 2.0 License used" src="https://img.shields.io/badge/License-Apache2.0-yellowgreen?style=plastic"></a>
+<a href="https://img.shields.io/badge/License-MIT-yellowgreen?style=plastic"><img alt="MIT License used" src="https://img.shields.io/badge/License-MIT-yellowgreen?style=plastic"></a>
